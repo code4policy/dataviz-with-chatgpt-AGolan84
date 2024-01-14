@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Body font and background */
+body {
+  font-family: 'Arial', sans-serif; /* Change to a more sophisticated font if desired */
+  background-color: #f7f7f7; /* Change to a preferred background color */
+  color: #333; /* Adjust text color as needed */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* Chart container */
+.chart-container {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: #fff; /* Container background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+
+/* Styles for bars */
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #ff9900; /* Change hover color if desired */
+}
+
+/* Styles for x-axis text */
+.axis-x text {
+  font-size: 12px;
+  fill: #666; /* Adjust color of axis text */
+}
+
+/* Y-axis label */
+.axis-y text {
+  font-size: 12px;
+  fill: #666; /* Adjust color of y-axis text */
+}
